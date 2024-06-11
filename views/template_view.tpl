@@ -1,11 +1,11 @@
 <html>
 <body>
-<h1>bot変換アプリ</h1>
+<h1>bot文章生成アプリ</h1>
 <form method="post" action="/" enctype="multipart/form-data">
 <textarea id="textarea" name="input_text" rows="4" cols="50">{{input_text}}</textarea><br>
 <input type="button" value="テキスト削除" onclick="clearTextarea()">
-<input type="reset" value="テンプレート文章設定">
-<input type="submit" value="bot変換">
+<input type="reset" value="テンプレート設定">
+<input type="submit" value="生成">
 </form>
 <ul>
 <li>{{!output_text[0]}}</li>

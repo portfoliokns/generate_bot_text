@@ -79,7 +79,7 @@ def get_first_word_and_count(three_words_count):
 def calc_markov(text):
     text = clear_text(text)
     sentences = text.split('。')
-    print('文の数は', len(sentences), '個あります')
+    print('生成に使用する文の数はおおよそ', len(sentences), '個あります。')
 
     three_words_list = []
     for sentence in tqdm(sentences):
