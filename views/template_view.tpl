@@ -4,7 +4,6 @@
 <form method="post" action="/" enctype="multipart/form-data">
 <textarea id="textarea" name="input_text" rows="4" cols="50">{{input_text}}</textarea><br>
 <input type="button" value="テキスト削除" onclick="clearTextarea()">
-<input type="reset" value="テンプレート設定">
 <input type="submit" value="生成">
 </form>
 <ul>
