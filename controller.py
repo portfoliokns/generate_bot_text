@@ -1,7 +1,7 @@
 from bottle import route, run, template, request
 from bot import output
 
-f = open('sample.txt', 'r')
+f = open('sample.txt', 'r', encoding='shift_jis')
 init_text = f.read()
 f.close()
 
